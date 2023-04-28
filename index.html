@@ -1,0 +1,48 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <title>Invoice Creator</title>
+    </head>
+    <body>
+        
+        <main>
+            <header>
+                <h2>Invoice creator</h2>
+                <p class="header-p">Thanks for choosing GoodCorp, LLC!</p>
+            </header>
+            
+            <div class="content">
+                <div class="buttons" id="buttons-container">
+                    <!-- Buttons to be rendered here -->
+                </div>
+                
+                <div class="tasks">
+                    <div class="task-row">
+                        <p>TASK</p>
+                        <p>TOTAL</p>
+                    </div>
+                    <div id="tasks-render">
+                    <!-- Tasks to be rendered here -->
+                    </div>
+                    <hr>
+                    <div class="notes-row">
+                        <p>NOTES</p>
+                        <p>TOTAL AMOUNT</p>
+                    </div>
+                    <div class="total-row" id="total-row">
+                        <p id="total-amount">0$</p>
+                    </div>
+                </div>
+                
+                <div class="send-invoice">
+                    <button class="send-btn" id="send-btn"><img src="icons/mail.png" />Send invoice</button>
+                </div>
+            </div>
+        <main>
+            
+        <script src="index.js"></script>
+    </body>
+</html>
